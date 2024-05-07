@@ -1,0 +1,11 @@
+.nav-link {
+  transition: transform color;
+}
+
+.nav-link:hover {
+  color: #2b77ce;
+}
+
+.text-logo:hover {
+  color: #2b77ce;
+}
