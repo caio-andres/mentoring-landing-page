@@ -1,9 +1,25 @@
 .nav-link {
-  transition: transform color;
+  color: #fff;
+  transition: 0.3s;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
 .nav-link:hover {
-  color: #2b77ce;
+  color: #4c93ff;
+  border-radius: 10px;
+}
+
+.nav-link-btn {
+  color: #000000;
+  background-color: #4c93ff;
+  transition: 0.3s;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.nav-link-btn:hover {
+  background-color: #f7faff;
 }
 
 .text-logo:hover {
