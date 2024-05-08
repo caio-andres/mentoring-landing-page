@@ -24,5 +24,3 @@ export const DivResponsive = styled.div`
     margin: 1px !important;
   }
 `;
-
-
