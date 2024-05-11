@@ -10,20 +10,6 @@
   border-radius: 10px;
 }
 
-.nav-link-btn {
-  color: #000000;
-  background-color: #4c93ff;
-  transition: 0.3s;
-  text-decoration: none;
-  border-radius: 2px;
-  font-weight: 600;
-}
-
-.nav-link-btn:hover {
-  background-color: #f7faff;
-  color: #000000;
-}
-
 .text-logo:hover {
   color: #2b77ce;
 }

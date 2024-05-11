@@ -1,7 +1,7 @@
 import React from "react";
 import { Modal, Button } from "react-bootstrap";
 
-const LogoPicture = ({ openLogoPicture, onClose }) => {
+const LogoPicture = ({ openLogoPicture, onClose, setOpenLogoPicture }) => {
   return (
     <Modal
       show={openLogoPicture}
@@ -9,12 +9,12 @@ const LogoPicture = ({ openLogoPicture, onClose }) => {
       centered={true}
       contentClassName="bg-dark"
     >
-      <Modal.Header closeButton style={{ borderBottom: "solid #10131B" }}>
-        <Modal.Title className="fs-6">Aprenda a Programar comigo!</Modal.Title>
+      <Modal.Header style={{ borderBottom: "solid #10131B" }}>
+        <Modal.Title className="fs-6">Desenvolvedor FullStack</Modal.Title>
       </Modal.Header>
 
       <Modal.Body className="d-flex align-items-center flex-column gap-1">
-        <p className="fs-4">Desenvolvedor FullStack</p>
+        <span className="fs-4">Caio André</span>
         <img
           src="/media/img/logo/eu-circle.png"
           width="200px"
@@ -144,7 +144,13 @@ const LogoPicture = ({ openLogoPicture, onClose }) => {
       </Modal.Body>
 
       <Modal.Footer style={{ borderTop: "solid #10131B" }}>
-        <Button variant="primary">Aprenda Programação</Button>
+        <Button className="link-btn">Aprenda Programação</Button>
+        <Button
+          className="link-close-btn"
+          onClick={() => setOpenLogoPicture(false)}
+        >
+          Fechar
+        </Button>
       </Modal.Footer>
     </Modal>
   );
