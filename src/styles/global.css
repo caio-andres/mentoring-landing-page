@@ -30,7 +30,7 @@ main::before {
   background-size: 45%;
   background-position: 60% 0%;
   animation: moveAround 60s infinite linear, shadowColor 60s infinite linear;
-  background-image: url(../public/media/img/background/guy.webp);
+  background-image: url(../../public/media/img/background/guy.webp);
 }
 
 @keyframes moveAround {

@@ -166,9 +166,7 @@ function Mentoria() {
                   </span>
                 </div>
               </div>
-              <a className="" href="">
-                Quero Fazer
-              </a>
+              <a href="" className="w-25">Quero Fazer</a>
             </div>
           </div>
         </div>
