@@ -8,7 +8,7 @@ import {
   MenuHideStart,
 } from "./styles.ts";
 
-import LogoPicture from "./modals/LogoPicture";
+import LogoPicture from "./modals/LogoPicture.tsx";
 
 const Header: React.FC = () => {
   const [openLogoPicture, setOpenLogoPicture] = useState(false);
