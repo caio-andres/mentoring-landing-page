@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./header.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import {
@@ -6,11 +6,11 @@ import {
   MenuHide,
   MenuHideAbout,
   MenuHideStart,
-} from "./styles";
+} from "./styles.ts";
 
 import LogoPicture from "./modals/LogoPicture";
 
-function Header() {
+const Header: React.FC = () => {
   const [openLogoPicture, setOpenLogoPicture] = useState(false);
 
   return (

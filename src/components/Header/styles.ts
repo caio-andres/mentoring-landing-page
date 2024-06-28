@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import breakpoint from "../../styles/breakpoints";
+import breakpoint from "../../styles/breakpoints.ts";
 
 export const MenuHide = styled.a`
   @media ${breakpoint.lg} {
