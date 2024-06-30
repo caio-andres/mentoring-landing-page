@@ -44,7 +44,7 @@ main::before {
     transform: rotateY(0deg) rotateX(0deg) scale(0.99);
   }
   75% {
-    transform: rotateY(-3deg) rotateX(3deg) scale(1.0);
+    transform: rotateY(-3deg) rotateX(3deg) scale(1);
   }
   100% {
     transform: rotateY(0deg) rotateX(0deg) scale(0.88);
@@ -98,7 +98,6 @@ main::before {
 .box-format:hover {
   border: solid 1px #61667c;
 }
-
 
 .link-close-btn:hover {
   background-color: #707070;

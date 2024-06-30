@@ -65,12 +65,12 @@ const Mentoria: React.FC = () => {
                     className="letter-spacing-plus fw-bold text-uppercase text-info"
                     style={{ fontSize: "14px", marginTop: "10px" }}
                   >
-                    Por onde começar na Programação
+                    O que é Programação
                   </p>
                   <span style={{ fontSize: "14px" }}>
-                    Vamos começar do ZERO na Programação. Não é necessário
-                    conhecimento prévio. Estarei aqui para ensinar passo a
-                    passo.
+                    Programação é basicamente dizer ao computador o que fazer
+                    através de códigos. É transformar ideias em realidade
+                    digital, criando aplicativos, sites e muito mais.
                   </span>
                 </div>
                 <div
@@ -93,12 +93,12 @@ const Mentoria: React.FC = () => {
                     className="letter-spacing-plus fw-bold text-uppercase text-warning"
                     style={{ fontSize: "14px", marginTop: "10px" }}
                   >
-                    Códigos
+                    Por onde começar
                   </p>
                   <span style={{ fontSize: "14px" }}>
-                    Vamos criar seu primeiro projeto com códigos. É hora de
-                    mergulhar na prática e começar a desenvolver suas
-                    habilidades de programação
+                    Vamos começar do ZERO na Programação. Não é necessário
+                    conhecimento prévio. Estarei aqui para ensinar passo a
+                    passo.
                   </span>
                 </div>
               </div>
@@ -128,12 +128,13 @@ const Mentoria: React.FC = () => {
                       marginTop: "10px",
                     }}
                   >
-                    Lógica de Programação
+                    O que Estudar
                   </p>
                   <span style={{ fontSize: "14px" }}>
-                    Dominar a lógica de programação é essencial. Vamos aprender
-                    a pensar de forma estruturada e resolver problemas de
-                    maneira eficiente.
+                    Para mandar bem na programação, você precisa aprender
+                    lógica, algoritmos e escolher uma linguagem para começar.
+                    Praticar com projetos e resolver problemas: te ensinarei
+                    tudo isso.
                   </span>
                 </div>
                 <div
@@ -163,17 +164,27 @@ const Mentoria: React.FC = () => {
                   <span style={{ fontSize: "14px" }}>
                     Pronto para ingressar na indústria que mais paga bem hoje em
                     dia? Vou orientá-lo sobre como iniciar e progredir em uma
-                    carreira gratificante na área de programação
+                    carreira gratificante na área de programação.
                   </span>
                 </div>
               </div>
-              <a href="" className="w-25">Quero Fazer</a>
+              <a href="" className="w-25">
+                Quero Fazer
+              </a>
             </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="d-flex flex-column">
+            <p className="letter-spacing fs-3">
+              Quais são as áreas existentes?
+            </p>
           </div>
         </div>
       </main>
     </>
   );
-}
+};
 
 export default Mentoria;
